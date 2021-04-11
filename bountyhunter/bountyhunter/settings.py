@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'bountyhunter.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'vote',
+        'NAME': 'bounty',
         'HOST': os.environ.get('MYSITE_HOST'),
         'USER': os.environ.get('MYSITE_USER'),
         'PASSWORD': os.environ.get('MYSITE_PASSWD'),
